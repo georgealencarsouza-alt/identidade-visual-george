@@ -1,0 +1,12 @@
+{
+  "name": "george-ricardo-identidade",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "node scripts/export-posts.mjs",
+    "export:sem-textura": "node scripts/export-posts.mjs --no-grain"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}
